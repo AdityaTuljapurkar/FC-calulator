@@ -1,0 +1,43 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Handjet:wght@300&family=Lato:ital@1&family=Noto+Sans:ital@1&family=Open+Sans:ital,wght@1,700&family=Oswald:wght@500&family=Permanent+Marker&family=Playpen+Sans:wght@800&family=Poppins:wght@500&family=Roboto+Condensed:ital,wght@1,500&family=Sometype+Mono:ital,wght@1,500&display=swap');
+
+  @import url('https://fonts.googleapis.com/css2?family=Agbalumo&family=Bebas+Neue&family=Handjet:wght@300&family=Lato:ital@1&family=Noto+Sans:ital@1&family=Open+Sans:ital,wght@1,700&family=Oswald:wght@500&family=Permanent+Marker&family=Playpen+Sans:wght@800&family=Poppins:wght@500&family=Roboto+Condensed:ital,wght@1,500&family=Sometype+Mono:ital,wght@1,500&display=swap');
+
+*{
+    background-color: black;
+    color: whitesmoke;
+}
+.head{
+    text-align: center;
+    font-size: 2em;
+    font-family: 'Bebas Neue';
+}
+.flex{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+.border{
+    border: 2px solid rgb(26, 209, 194);
+}
+.btn{
+    margin: 1em ;
+    font-size: 1.4em;
+    background-color: teal;
+    color: black;
+    box-shadow: 2px 2px 5px aqua;
+}
+.btn:hover {
+    transform: scale(1.1);
+    box-shadow: 2px 2px 5px red;
+    cursor: pointer;
+
+}
+.font{
+    font-size: 1.5em;
+}
+.style{
+    font-style: bold;
+    font-family: 'Roboto Condensed', sans-serif;    
+}
